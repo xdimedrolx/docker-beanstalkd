@@ -1,4 +1,4 @@
-IMAGE ?= beanstalkd
+IMAGE ?= xdimedrolx/beanstalkd
 BEANSTALKD_VERSION ?= 1.11
 LABEL ?= $(BEANSTALKD_VERSION)
 BEANSTALKD_SOURCE_URL = https://github.com/beanstalkd/beanstalkd/archive/v$(BEANSTALKD_VERSION).tar.gz
