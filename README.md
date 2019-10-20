@@ -7,7 +7,7 @@ A docker container for [https://github.com/beanstalkd/beanstalkd](beanstalkd).
 #### start instance
 
 ```bash
-  $ docker run --name=beanstalkd -d xdimedrolx/beanstalkd:1.11 beanstalkd
+  $ docker run --name=beanstalkd -d xdimedrolx/beanstalkd:1.11-1 beanstalkd
 ```
 
 #### docker-compose
@@ -24,8 +24,8 @@ volumes:
 
 services:
   beanstalk:
-    image: xdimedrolx/beanstalkd:1.11
-    command: "beanstalkd -b /beanstalk"
+    image: xdimedrolx/beanstalkd:1.11-1
+    command: "-b /beanstalk"
     ports:
       - 11300:11300
     volumes:

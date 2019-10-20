@@ -32,8 +32,8 @@ VOLUME /beanstalk
 WORKDIR /beanstalk
 
 EXPOSE 11300
-CMD beanstalkd
 
+ENTRYPOINT ["/usr/local/bin/beanstalkd"]
 
 
 
