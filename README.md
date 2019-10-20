@@ -7,7 +7,7 @@ A docker container for [https://github.com/beanstalkd/beanstalkd](beanstalkd).
 #### start instance
 
 ```bash
-  $ docker run --name=beanstalkd -d xdimedrolx/beanstalkd:1.11-1 beanstalkd
+  $ docker run --name=beanstalkd -d xdimedrolx/beanstalkd:1.11-1
 ```
 
 #### docker-compose
