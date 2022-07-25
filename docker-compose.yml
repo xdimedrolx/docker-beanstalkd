@@ -6,7 +6,7 @@ volumes:
 
 services:
   beanstalk:
-    image: xdimedrolx/beanstalkd:1.11-1
+    image: xdimedrolx/beanstalkd:1.12
     command: "-b /beanstalk"
     ports:
       - 11300:11300
